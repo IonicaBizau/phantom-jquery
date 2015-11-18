@@ -1,0 +1,30 @@
+{
+  "name": "phantom-jquery",
+  "version": "1.0.0",
+  "description": "Access DOM elements using jQuery in PhantomJS.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/phantom-jquery.git"
+  },
+  "keywords": [
+    "phantom",
+    "jquery"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/phantom-jquery/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/phantom-jquery#readme",
+  "dependencies": {
+    "cb-bufferify": "^1.0.0",
+    "ghosty": "^1.0.0",
+    "jquery": "^2.1.4",
+    "sliced": "^1.0.1",
+    "ul": "^5.1.0"
+  }
+}
