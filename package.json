@@ -26,5 +26,10 @@
     "jquery": "^2.1.4",
     "sliced": "^1.0.1",
     "ul": "^5.1.0"
+  },
+  "blah": {
+    "h_img": "http://i.imgur.com/s2eKXAp.png",
+    "thanks": "This project is heavily inspired from [`jquery.go.js`](https://github.com/travist/jquery.go.js) by [**@travist**](https://github.com/travist). :cake:",
+    "description": "This project could be useful in scraping websites easily or in unit testing."
   }
 }
