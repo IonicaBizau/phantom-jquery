@@ -1,7 +1,7 @@
 // Dependencies
 var phJQuery = require("../lib");
 
-// Open Google.com
+// Open my website
 phJQuery.open("http://ionicabizau.net", (err, $, page, ph) => {
 
     // Handle error

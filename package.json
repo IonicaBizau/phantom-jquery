@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/IonicaBizau/phantom-jquery#readme",
   "dependencies": {
-    "cb-bufferify": "^1.0.0",
     "ghosty": "^1.0.0",
     "jquery": "^2.1.4",
     "sliced": "^1.0.1",

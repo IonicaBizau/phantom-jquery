@@ -18,7 +18,7 @@ $ npm i phantom-jquery
 // Dependencies
 var phJQuery = require("phantom-jquery");
 
-// Open Google.com
+// Open my website
 phJQuery.open("http://ionicabizau.net", (err, $, page, ph) => {
 
     // Handle error
