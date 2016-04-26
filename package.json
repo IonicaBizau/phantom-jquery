@@ -1,6 +1,6 @@
 {
   "name": "phantom-jquery",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Access DOM elements using jQuery in PhantomJS.",
   "main": "lib/index.js",
   "scripts": {
@@ -30,5 +30,16 @@
     "h_img": "http://i.imgur.com/s2eKXAp.png",
     "thanks": "This project is heavily inspired from [`jquery.go.js`](https://github.com/travist/jquery.go.js) by [**@travist**](https://github.com/travist). :cake:",
     "description": "This project could be useful in scraping websites easily or in unit testing."
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
