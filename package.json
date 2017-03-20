@@ -1,6 +1,6 @@
 {
   "name": "phantom-jquery",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Access DOM elements using jQuery in PhantomJS.",
   "main": "lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "phantom",
     "jquery"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/phantom-jquery/issues"
@@ -35,12 +35,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
