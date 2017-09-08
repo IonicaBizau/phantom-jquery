@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Opens the specified document.
 
 #### Params
+
 - **String** `url`: The page to open.
 - **Object** `options`: An object containing:
  - `include_jquery` (Boolean): If `false`, it will not re-inject jQuery on the page (default: `true`).
@@ -15,6 +16,7 @@ Opens the specified document.
 This function creates the jQuery-like function.
 
 #### Params
+
 - **Phantom** `ph`: The Phantom object.
 - **PhantomPage** `page`: The Phantom page object.
 - **String** `status`: The page status (most probably `"success"`).
@@ -26,6 +28,7 @@ This function creates the jQuery-like function.
 Converts an jQueryInterface instance into jQuery-like function.
 
 #### Params
+
 - **jQueryInterface** `elm`: The jQueryInterface element.
 
 #### Return
@@ -35,6 +38,7 @@ Converts an jQueryInterface instance into jQuery-like function.
 Extends the jQueryInterface with new fields.
 
 #### Params
+
 - **Object** `cField`: An object containing:
  - `field` (String): The field name.
  - `type` (String): The field type (e.g. `function`).
@@ -61,6 +65,7 @@ $(".my-class").text("text to set", function () {
 Note that as long the Phantom's `evaluate` method is async, all these methods will be async.
 
 #### Params
+
 - **Phantom** `ph`: The Phantom object.
 - **PhantomPage** `page`: The Phantom page object.
 - **String** `status`: The page status (most probably `"success"`).
@@ -73,6 +78,7 @@ Note that as long the Phantom's `evaluate` method is async, all these methods wi
 Get the element at specified index.
 
 #### Params
+
 - **Number** `index`: The index of the element.
 - **Function** `callback`: The callback function.
 
@@ -80,6 +86,7 @@ Get the element at specified index.
 Iterate the elements.
 
 #### Params
+
 - **Function** `callback`: The callback function (called for each element).
     You can use it like this:
 
