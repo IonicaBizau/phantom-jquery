@@ -22,7 +22,7 @@
   "homepage": "https://github.com/IonicaBizau/phantom-jquery#readme",
   "dependencies": {
     "ghosty": "^1.0.0",
-    "jquery": "^2.1.4",
+    "jquery": "^3.5.1",
     "sliced": "^1.0.1",
     "ul": "^5.1.0"
   },
